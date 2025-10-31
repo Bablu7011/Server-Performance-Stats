@@ -196,15 +196,14 @@ Monitor any server easily
 You can now proudly say:
 
 “I built my own mini system monitor in Bash!” 🥳
-~~~
-#######################################################
-Project_Url = https://roadmap.sh/projects/server-stats
-#######################################################
-~~~
+
+########################################################################################################
+
+🎯 **Project URL:** [https://roadmap.sh/projects/server-stats](https://roadmap.sh/projects/server-stats)
+
+########################################################################################################
 
 
-👤 Author
-Bablu Kumar
-💼 DevOps & Cloud Enthusiast
-📧 bablukumar8520080@gmail.com
-🔗 https://www.linkedin.com/in/bablukumar70/
+👤 **Author:** [Bablu Kumar](https://www.linkedin.com/in/bablukumar70/) &nbsp; 💼 *DevOps & Cloud Enthusiast* &nbsp; 📧 [bablukumar8520080@gmail.com](mailto:bablukumar8520080@gmail.com)
+
+
