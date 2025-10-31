@@ -202,8 +202,9 @@ Project_Url = https://roadmap.sh/projects/server-stats
 #######################################################
 ~~~
 
-~~~
-👨‍💻 Author
+
+👤 Author
 Bablu Kumar
-DevOps & Cloud Enthusiast — loves automating things
-~~~
+💼 DevOps & Cloud Enthusiast
+📧 bablukumar8520080@gmail.com
+🔗 https://www.linkedin.com/in/bablukumar70/
