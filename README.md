@@ -42,8 +42,7 @@ Before running the script, make sure you have:
    nano server-stats.sh
 Copy the script below into that file:
 
-bash
-Copy code
+---
 #!/bin/bash
 # server-stats.sh
 # Script to display basic server performance statistics
@@ -93,10 +92,9 @@ echo "⚙️  Load Average: $(uptime | awk -F'load average:' '{ print $2 }')"
 echo "👤 Logged-in Users: $(who | wc -l)"
 Save and exit (in nano: press Ctrl + O, Enter, then Ctrl + X)
 
+---
 Make it executable
 
-bash
-Copy code
 chmod +x server-stats.sh
 Run the script
 
@@ -109,8 +107,7 @@ You’ll now see a report showing your system performance!
 Let’s understand the script step by step.
 
 1️⃣ CPU Usage
-bash
-Copy code
+
 top -bn1 | grep "Cpu(s)"
 This command shows how busy your CPU is.
 
@@ -120,21 +117,18 @@ For example:
 If CPU is 80% idle → usage = 100 - 80 = 20%
 
 2️⃣ Memory (RAM) Usage
-bash
-Copy code
+
 free -m
 This shows total, used, and free memory in megabytes (MB).
 
 We then calculate:
 
-java
-Copy code
+
 Used Percentage = (Used / Total) * 100
 and print it in a readable format.
 
 3️⃣ Disk (Storage) Usage
-bash
-Copy code
+
 df -h /
 This shows how much disk space your root (/) drive is using.
 
@@ -147,8 +141,7 @@ Used space
 Percentage used (e.g., 45%)
 
 4️⃣ Top 5 CPU-Hungry Processes
-bash
-Copy code
+
 ps -eo pid,comm,%cpu --sort=-%cpu | head -n 6
 This lists all processes with:
 
@@ -182,8 +175,7 @@ This gives extra context about your system’s health.
 🧪 Example Output
 When you run the script, you’ll see something like this:
 
-yaml
-Copy code
+---
 ===============================================
         SERVER PERFORMANCE STATISTICS
 ===============================================
@@ -213,6 +205,7 @@ Additional Info
 🕒 Uptime: up 2 hours, 13 minutes
 ⚙️  Load Average: 0.10, 0.12, 0.08
 👤 Logged-in Users: 1
+---
 💡 Tips
 Run it every few hours to check your server’s performance.
 
