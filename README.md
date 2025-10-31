@@ -39,7 +39,7 @@ Before running the script, make sure you have:
 
 ### 1️⃣ Create the Script
 Open your terminal and create a new file:
-```bash
+~~~
 nano server-stats.sh
 2️⃣ Copy and Paste the Code
 Paste the following code inside:
@@ -91,7 +91,7 @@ echo "🧩 OS Version: $(lsb_release -d 2>/dev/null | cut -f2)"
 echo "🕒 Uptime: $(uptime -p)"
 echo "⚙️  Load Average: $(uptime | awk -F'load average:' '{ print $2 }')"
 echo "👤 Logged-in Users: $(who | wc -l)"
-
+~~~
 3️⃣ Save and Exit
 Press:
 CTRL + O  → Enter  → CTRL + X
@@ -153,7 +153,7 @@ uptime → System load average
 who | wc -l → Number of logged-in users
 
 🧪 Example Output
-
+~~~
 ===============================================
         SERVER PERFORMANCE STATISTICS
 ===============================================
@@ -183,7 +183,7 @@ Additional Info
 🕒 Uptime: up 2 hours, 13 minutes
 ⚙️  Load Average: 0.10, 0.12, 0.08
 👤 Logged-in Users: 1
-
+~~~
 🏁 Conclusion
 This simple Bash script helps you:
 
