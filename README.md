@@ -233,6 +233,16 @@ You can now proudly say:
 
 “I can check my server’s health with my own script!”
 
+echo "###################################################"
+
+Project_Url = https://roadmap.sh/projects/server-stats
+
+
+
+
+echo "###################################################"
+
+
 👨‍💻 Author
 Bablu Kumar
 (DevOps & Cloud Enthusiast — loves automating things)
